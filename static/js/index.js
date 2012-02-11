@@ -13,8 +13,12 @@ function add(){
 	<div class="span3"><label for="time' + counter + '">Time estimate (hours)</label>\
 	<input type="number" id="time" name="time' + counter + '" step="0.5" min="0"/></div>\
 	<div class="span3"><label for="duedate' + counter + '">Due date</label>\
-	<input type="datetime-local" id="duedate" name="duedate' + counter + '"/></div>\
+	<input type="datetime-local" id="duedate' + counter + '" name="duedate' + counter + '"/></div>\
 	<div class="span3"><label>&nbsp;</label><button class="btn" onClick="del(' + counter + ');">Delete Item</button></div></div>');		
+   $(function() {
+      $( "#duedate"+counter ).datepicker();
+        });
+  
 	counter++;
 }
 			
