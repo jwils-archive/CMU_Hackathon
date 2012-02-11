@@ -35,25 +35,25 @@
 			<div class="hero-unit">
 				<img src="./static/img/gary.png"></img>
         <h1>Gary Menezes</h1>
-        <p>Bio</p>
+        <p>Junior, Computer Science</p>
         <!-- <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p> -->
       </div>
 			<div class="hero-unit">
 				<img src="./static/img/mike.png"></img>
         <h1>Michael Plis</h1>
-        <p>Bio</p>
+        <p>Junior, Computer Science</p>
         <!-- <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p> -->
       </div>
 			<div class="hero-unit">
 				<img src="./static/img/aaron.png"></img>
         <h1>Aaron Roth</h1>
-        <p>Bio</p>
+        <p>Senior, Electrical Engineering</p>
         <!-- <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p> -->
       </div>
 			<div class="hero-unit">
 				<img src="./static/img/josh.png"></img>
         <h1>Josh Wilson</h1>
-        <p>Bio</p>
+        <p>Junior, Computer Science</p>
         <!-- <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p> -->
       </div>
 
