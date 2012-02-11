@@ -26,9 +26,8 @@ class Constraint():
         return True
 
 class Scheduler():
-    def __init__(self, fname, start_date, end_date, new_events):
-        self.fname = fname
-        self.ical = Calendar.from_string(open(fname, 'rb').read())
+    def __init__(self, ical_string, start_date, end_date, new_events):
+        self.ical = Calendar.from_string(ical_string)
         self.simpl_ical = Calendar()
         self.new_events = new_events
         self.new_events.sort(key=lambda x: x.duration, reverse=True)
@@ -74,14 +73,8 @@ class Scheduler():
         self.simpl_ical.add_component(e)
 
     def writeFile(self):
-        f = open(os.path.splitext(self.fname)[0] + '_result.ics', 'wb')
-        f_simpl  = open(os.path.splitext(self.fname)[0] + '_result_simpl.ics', 'wb')
-        f.write(self.ical.as_string())
-        f_simpl.write(self.simpl_ical.as_string())
-        f.close()
-        f_simpl.close()
-	return os.path.splitext(self.fname)[0] + '_result.ics'
-
+    	return self.ical.as_string()
+   
 def main():
     events = []
     e = ConstrainedEvent('1This is a test event', 'Not much more to say about it. . .', 10)
@@ -100,9 +93,14 @@ def main():
     events.append(e)
     e = ConstrainedEvent('8This is a test event', 'Not much more to say about it. . .', 19)
     events.append(e)
-    s = Scheduler('cmu_demo.ics', time.time()/60, time.time()/60 + 2880, events)
+    f = open('cmu_demo.ics')
+    ical_string = ''
+    for line in f:
+        ical_string += line
+    s = Scheduler(ical_string, time.time()/60, time.time()/60 + 2880, events)
     s.findSchedule()
-    s.writeFile()
+    f = open('output.ics', 'wb')
+    f.write(s.writeFile())
 
 if __name__ == '__main__':
     main()
