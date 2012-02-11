@@ -9,7 +9,7 @@ class ConstrainedEvent():
 	self.end = end
 	self.duration = duration
 	self.constraints = []
-	
+
     def getID(self):
         return id(self)
 
@@ -38,7 +38,7 @@ class ConstrainedCal():
 class Scheduler():
     def __init__(self, fname):
         self.ical = Calendar.from_string(open(fname, 'rb').read())
-	self.tree = ConstrainedCal(self.ical)
+	    self.tree = ConstrainedCal(self.ical)
 
     def findSchedule(self):
         pass
