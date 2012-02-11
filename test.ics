@@ -1,0 +1,371 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:12a
+X-WR-TIMEZONE:America/New_York
+X-WR-CALDESC:
+BEGIN:VTIMEZONE
+TZID:America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120116T150000
+DTEND;TZID=America/New_York:20120116T163000
+RRULE:FREQ=WEEKLY;WKST=MO;INTERVAL=1;UNTIL=20120424T070000Z;BYDAY=MO
+DTSTAMP:20120211T091710Z
+UID:20111224T145730Z-1324738648333@fe80:0:0:0:213:72ff:fe60:697d%4
+CREATED:20111224T145728Z
+DESCRIPTION:This course introduces basic concepts and techniques in the fou
+ ndational study of programming languages. The central theme is the view of 
+ individual programs and whole languages as mathematical objects about which
+  precise claims may be made and proved. Particular topics include operation
+ al techniques for formal definition of language features\, type systems and
+  type safety properties\, polymorphism and subtyping\, foundations of objec
+ t-oriented programming\, and mechanisms supporting information hiding and p
+ rogramming in the large. This course is appropriate as an upper-level under
+ graduate CIS elective
+LAST-MODIFIED:20111224T145834Z
+LOCATION:MOOR 216
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:CIS 500001
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120111T150000
+DTEND;TZID=America/New_York:20120111T163000
+RRULE:FREQ=WEEKLY;WKST=WE;INTERVAL=1;UNTIL=20120424T070000Z;BYDAY=WE
+DTSTAMP:20120211T091710Z
+UID:20111224T145731Z-1324738648337@fe80:0:0:0:213:72ff:fe60:697d%4
+CREATED:20111224T145728Z
+DESCRIPTION:This course introduces basic concepts and techniques in the fou
+ ndational study of programming languages. The central theme is the view of 
+ individual programs and whole languages as mathematical objects about which
+  precise claims may be made and proved. Particular topics include operation
+ al techniques for formal definition of language features\, type systems and
+  type safety properties\, polymorphism and subtyping\, foundations of objec
+ t-oriented programming\, and mechanisms supporting information hiding and p
+ rogramming in the large. This course is appropriate as an upper-level under
+ graduate CIS elective
+LAST-MODIFIED:20111224T145834Z
+LOCATION:MOOR 216
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:CIS 500001
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120112T120000
+DTEND;TZID=America/New_York:20120112T133000
+RRULE:FREQ=WEEKLY;WKST=TH;INTERVAL=1;UNTIL=20120424T070000Z;BYDAY=TH
+DTSTAMP:20120211T091710Z
+UID:20111224T145733Z-1324738648345@fe80:0:0:0:213:72ff:fe60:697d%4
+CREATED:20111224T145728Z
+DESCRIPTION:This course is about strategically interdependent decisions. In
+  such situations\, the outcome of your actions depends also on the actions 
+ of others. When making your choice\, you have to think what the others will
+  choose\, who in turn are thinking what you will be choosing\, and so on. G
+ ame Theory offers several concepts and insights for understanding such situ
+ ations\, and for making better strategic choices. This course will introduc
+ e and develop some basic ideas from game theory\, using illustrations\, app
+ lications\, and cases drawn from business\, economics\, politics\, sports\,
+  and even fiction and movies. Some interactive games will be played in clas
+ s. There will be little formal theory\, and the only pre-requisite is some 
+ high-school algebra. This course will also be accepted by the Economics dep
+ artment as an econ course\, to be counted toward the minor in Economics (or
+  as an Econ elective).
+LAST-MODIFIED:20111224T145834Z
+LOCATION:COHN G17
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:ECON013401
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120116T183000
+DTEND;TZID=America/New_York:20120116T213000
+RRULE:FREQ=WEEKLY;WKST=MO;INTERVAL=1;UNTIL=20120424T070000Z;BYDAY=MO
+DTSTAMP:20120211T091710Z
+UID:20111224T145736Z-1324738648357@fe80:0:0:0:213:72ff:fe60:697d%4
+CREATED:20111224T145728Z
+DESCRIPTION:Philosophers ask difficult questions about the most basic issue
+ s in human life. Does God exist? What does it mean to live a good life? How
+  should I treat non-human animals? Do I have free will? How do I know that 
+ the world I see is really there? This course is an introduction to some of 
+ these questions and to the methods philosophers have developed for thinking
+  clearly about them.
+LAST-MODIFIED:20111224T145834Z
+LOCATION:COHN 392
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:PHIL001601
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120116T100000
+DTEND;TZID=America/New_York:20120116T110000
+RRULE:FREQ=WEEKLY;WKST=MO;INTERVAL=1;UNTIL=20120424T070000Z;BYDAY=MO
+DTSTAMP:20120211T091710Z
+UID:20111224T145737Z-1324738648361@fe80:0:0:0:213:72ff:fe60:697d%4
+CREATED:20111224T145728Z
+DESCRIPTION:Electric and magnetic fields\; Coulomb's\, Ampere's\, and Farad
+ ay's laws\; Maxwell's equations\; emission\, propagation\, and absorption o
+ f electromagnetic radiation\; interference\, reflection\, refraction\, scat
+ tering\, and diffraction phenomena.
+LAST-MODIFIED:20111224T145834Z
+LOCATION:DRLB A4
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:PHYS151001
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120116T130000
+DTEND;TZID=America/New_York:20120116T140000
+RRULE:FREQ=WEEKLY;WKST=MO;INTERVAL=1;UNTIL=20120424T070000Z;BYDAY=MO
+DTSTAMP:20120211T091710Z
+UID:20111224T145738Z-1324738648365@fe80:0:0:0:213:72ff:fe60:697d%4
+CREATED:20111224T145728Z
+DESCRIPTION:Electric and magnetic fields\; Coulomb's\, Ampere's\, and Farad
+ ay's laws\; Maxwell's equations\; emission\, propagation\, and absorption o
+ f electromagnetic radiation\; interference\, reflection\, refraction\, scat
+ tering\, and diffraction phenomena.
+LAST-MODIFIED:20111224T145834Z
+LOCATION:DRLB A8
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:PHYS151001
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120111T100000
+DTEND;TZID=America/New_York:20120111T110000
+RRULE:FREQ=WEEKLY;WKST=WE;INTERVAL=1;UNTIL=20120424T070000Z;BYDAY=WE
+DTSTAMP:20120211T091710Z
+UID:20111224T145739Z-1324738648369@fe80:0:0:0:213:72ff:fe60:697d%4
+CREATED:20111224T145728Z
+DESCRIPTION:Electric and magnetic fields\; Coulomb's\, Ampere's\, and Farad
+ ay's laws\; Maxwell's equations\; emission\, propagation\, and absorption o
+ f electromagnetic radiation\; interference\, reflection\, refraction\, scat
+ tering\, and diffraction phenomena.
+LAST-MODIFIED:20111224T145834Z
+LOCATION:DRLB A4
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:PHYS151001
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120112T170000
+DTEND;TZID=America/New_York:20120112T180000
+RRULE:FREQ=WEEKLY;WKST=TH;INTERVAL=1;UNTIL=20120424T070000Z;BYDAY=TH
+DTSTAMP:20120211T091710Z
+UID:20111224T145740Z-1324738648373@fe80:0:0:0:213:72ff:fe60:697d%4
+CREATED:20111224T145728Z
+DESCRIPTION:Electric and magnetic fields\; Coulomb's\, Ampere's\, and Farad
+ ay's laws\; Maxwell's equations\; emission\, propagation\, and absorption o
+ f electromagnetic radiation\; interference\, reflection\, refraction\, scat
+ tering\, and diffraction phenomena.
+LAST-MODIFIED:20111224T145834Z
+LOCATION:DRLB A1
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:PHYS151001
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120113T100000
+DTEND;TZID=America/New_York:20120113T110000
+RRULE:FREQ=WEEKLY;WKST=FR;INTERVAL=1;UNTIL=20120424T070000Z;BYDAY=FR
+DTSTAMP:20120211T091710Z
+UID:20111224T145741Z-1324738648377@fe80:0:0:0:213:72ff:fe60:697d%4
+CREATED:20111224T145728Z
+DESCRIPTION:Electric and magnetic fields\; Coulomb's\, Ampere's\, and Farad
+ ay's laws\; Maxwell's equations\; emission\, propagation\, and absorption o
+ f electromagnetic radiation\; interference\, reflection\, refraction\, scat
+ tering\, and diffraction phenomena.
+LAST-MODIFIED:20111224T145834Z
+LOCATION:DRLB A4
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:PHYS151001
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120111T130000
+DTEND;TZID=America/New_York:20120111T150000
+RRULE:FREQ=WEEKLY;WKST=WE;INTERVAL=1;UNTIL=20120424T070000Z;BYDAY=WE
+EXDATE;TZID=America/New_York:20120118T130000
+DTSTAMP:20120211T091710Z
+UID:20111224T145742Z-1324738648381@fe80:0:0:0:213:72ff:fe60:697d%4
+CREATED:20111224T145728Z
+DESCRIPTION:Electric and magnetic fields\; Coulomb's\, Ampere's\, and Farad
+ ay's laws\; Maxwell's equations\; emission\, propagation\, and absorption o
+ f electromagnetic radiation\; interference\, reflection\, refraction\, scat
+ tering\, and diffraction phenomena.
+LAST-MODIFIED:20111224T145834Z
+LOCATION:DRLB LAB
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:PHYS151141
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120117T103000
+DTEND;TZID=America/New_York:20120117T120000
+RRULE:FREQ=WEEKLY;WKST=TU;INTERVAL=1;UNTIL=20120424T070000Z;BYDAY=TU
+DTSTAMP:20120211T091710Z
+UID:20111224T145728Z-1324738648323@fe80:0:0:0:213:72ff:fe60:697d%4
+CREATED:20111224T145728Z
+DESCRIPTION:Artificial Intelligence is considered from the point of view of
+  a resource-limi knowledge-based agent who must reason and act in the world
+ . Topics include log automatic theorem proving\, search\, knowledge represe
+ ntation and reasoning\, natural language processing\, probabilistic reasoni
+ ng\, and machine learning. Programming assignments in Python.
+LAST-MODIFIED:20111230T134958Z
+LOCATION:MOOR 216
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:CIS 521001
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120112T103000
+DTEND;TZID=America/New_York:20120112T120000
+RRULE:FREQ=WEEKLY;WKST=TH;INTERVAL=1;UNTIL=20120424T070000Z;BYDAY=TH
+DTSTAMP:20120211T091710Z
+UID:20111224T145729Z-1324738648327@fe80:0:0:0:213:72ff:fe60:697d%4
+CREATED:20111224T145728Z
+DESCRIPTION:Artificial Intelligence is considered from the point of view of
+  a resource-limi knowledge-based agent who must reason and act in the world
+ . Topics include log automatic theorem proving\, search\, knowledge represe
+ ntation and reasoning\, natural language processing\, probabilistic reasoni
+ ng\, and machine learning. Programming assignments in Python.
+LAST-MODIFIED:20111230T135005Z
+LOCATION:MOOR 216
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:CIS 521001
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20120117T170000Z
+DTEND:20120117T180000Z
+DTSTAMP:20120211T091710Z
+UID:20120112T023621CET-5457SJ9x8n@www.upenn.edu
+CREATED:20120112T013621Z
+DESCRIPTION:All graduate students are welcome. This event grows out of conc
+ erns in the Classics department and so may be most useful to students in re
+ lated fields.\nCounts toward the CTL Teaching Certificate.
+LAST-MODIFIED:20120112T013756Z
+LOCATION:Cohen Hall\, 2nd floor lounge
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Teaching Theory to Undergraduates and Graduate Students
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20120117T220000Z
+DTEND:20120118T000000Z
+DTSTAMP:20120211T091710Z
+UID:ro3n3ts21h8fi273n8paa6nnec@google.com
+CREATED:20120117T151257Z
+DESCRIPTION:
+LAST-MODIFIED:20120117T151257Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:PHYS
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120117T150000
+DTEND;TZID=America/New_York:20120117T163000
+RRULE:FREQ=WEEKLY;WKST=TU;INTERVAL=1;UNTIL=20120424T190000Z;BYDAY=TU
+DTSTAMP:20120211T091710Z
+UID:20111224T145734Z-1324738648348@fe80:0:0:0:213:72ff:fe60:697d%4
+CREATED:20111224T145728Z
+DESCRIPTION:
+LAST-MODIFIED:20120123T075920Z
+LOCATION:DRLB 3C4
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:MATH313401
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120112T150000
+DTEND;TZID=America/New_York:20120112T163000
+RRULE:FREQ=WEEKLY;WKST=TH;UNTIL=20120419T190000Z;INTERVAL=1;BYDAY=TH
+DTSTAMP:20120211T091710Z
+UID:20111224T145735Z-1324738648353@fe80:0:0:0:213:72ff:fe60:697d%4
+CREATED:20111224T145728Z
+DESCRIPTION:
+LAST-MODIFIED:20120123T075941Z
+LOCATION:DRLB 3C4
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:MATH313401
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120129T140000
+DTEND;TZID=America/New_York:20120129T190000
+RRULE:FREQ=WEEKLY;UNTIL=20120422T180000Z;BYDAY=SU
+DTSTAMP:20120211T091710Z
+UID:ij75nok17fl7kpj7mr0tm1b8co@google.com
+CREATED:20120128T000809Z
+DESCRIPTION:
+LAST-MODIFIED:20120128T000809Z
+LOCATION:Moore 100
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:500 hw with Mish
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120117T120000
+DTEND;TZID=America/New_York:20120117T133000
+RRULE:FREQ=WEEKLY;WKST=TU;INTERVAL=1;UNTIL=20120424T070000Z;BYDAY=TU
+DTSTAMP:20120211T091710Z
+UID:20111224T145732Z-1324738648341@fe80:0:0:0:213:72ff:fe60:697d%4
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=12a;X-
+ NUM-GUESTS=0:mailto:ib6enn81usjrm3ae115oapunqo@group.calendar.google.com
+CREATED:20111224T145728Z
+DESCRIPTION:This course is about strategically interdependent decisions. In
+  such situations\, the outcome of your actions depends also on the actions 
+ of others. When making your choice\, you have to think what the others will
+  choose\, who in turn are thinking what you will be choosing\, and so on. G
+ ame Theory offers several concepts and insights for understanding such situ
+ ations\, and for making better strategic choices. This course will introduc
+ e and develop some basic ideas from game theory\, using illustrations\, app
+ lications\, and cases drawn from business\, economics\, politics\, sports\,
+  and even fiction and movies. Some interactive games will be played in clas
+ s. There will be little formal theory\, and the only pre-requisite is some 
+ high-school algebra. This course will also be accepted by the Economics dep
+ artment as an econ course\, to be counted toward the minor in Economics (or
+  as an Econ elective).
+LAST-MODIFIED:20120205T065620Z
+LOCATION:COHN G17
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:ECON013401
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
