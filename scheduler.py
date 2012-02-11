@@ -22,18 +22,18 @@ class Constraint():
     def __init__(self):
         pass
 
-    def isValid(self, event):
+    def isValid(self, event, ical):
         return True
 
 class Scheduler():
     def __init__(self, fname, start_date, end_date, new_events):
         self.fname = fname
-	    self.ical = Calendar.from_string(open(fname, 'rb').read())
-	    self.simpl_ical = Calendar()
+	self.ical = Calendar.from_string(open(fname, 'rb').read())
+	self.simpl_ical = Calendar()
         self.new_events = new_events
         self.new_events.sort(key=lambda x: x.duration, reverse=True)
-        self.start_date = start_date
-        self.end_date = end_date
+        self.start_date = start_date - start_date%30 + 30
+        self.end_date = end_date - end_date%30 + 30
 
     def findSchedule(self):
         for event in self.new_events:
@@ -48,12 +48,12 @@ class Scheduler():
 	               dc = component.decoded
 		       dtstart = time.mktime(time.strptime(str(dc('dtstart')), '%Y-%m-%d %H:%M:%S+00:00'))/60
 		       dtend = time.mktime(time.strptime(str(dc('dtend')), '%Y-%m-%d %H:%M:%S+00:00'))/60
-		       if curr_time > dtstart and curr_time < dtend or curr_time + event.duration > dtstart and curr_time + event.duration < dtend or curr_time < dtstart and curr_time + event.duration > dtend or curr_time > dtstart and curr_time + event.duration < dtend:
+		       if curr_time > dtstart and curr_time < dtend or curr_time + event.duration > dtstart and curr_time + event.duration < dtend or curr_time < dtstart and curr_time + event.duration > dtend or curr_time > dtstart and curr_time + event.duration < dtend or curr_time == dtstart or curr_time + event.duration == dtend:
 		           is_valid = False
 		           break
 	       if is_valid:
 	           for constraint in event.constraints:
-		       if not constraint.isValid(event):
+		       if not constraint.isValid(event, self.ical):
 		           is_valid = False
 			   break
 	       if is_valid:
@@ -91,13 +91,13 @@ def main():
     events.append(e)
     e = ConstrainedEvent('4This is a test event', 'Not much more to say about it. . .', 60)
     events.append(e)
-    e = ConstrainedEvent('4This is a test event', 'Not much more to say about it. . .', 600)
+    e = ConstrainedEvent('5This is a test event', 'Not much more to say about it. . .', 600)
     events.append(e)
-    e = ConstrainedEvent('4This is a test event', 'Not much more to say about it. . .', 400)
+    e = ConstrainedEvent('6This is a test event', 'Not much more to say about it. . .', 400)
     events.append(e)
-    e = ConstrainedEvent('4This is a test event', 'Not much more to say about it. . .', 25)
+    e = ConstrainedEvent('7This is a test event', 'Not much more to say about it. . .', 25)
     events.append(e)
-    e = ConstrainedEvent('4This is a test event', 'Not much more to say about it. . .', 19)
+    e = ConstrainedEvent('8This is a test event', 'Not much more to say about it. . .', 19)
     events.append(e)
     s = Scheduler('cmu_demo.ics', time.time()/60, time.time()/60 + 2880, events)
     s.findSchedule()
