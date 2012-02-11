@@ -35,7 +35,8 @@
       </div>
 
       <!-- Example row of columns -->
-      <form  id="todo" method="post" action="/submit" enctype="multipart/form-data">
+      <form method="post" action="/submit" enctype="multipart/form-data">
+      <div id="todo" >
       <input type="file" name="cal_file"/>
        <h2>Todo List</h2>
        <div class="row" id="item1">
@@ -46,6 +47,7 @@
       <div class="span3"><label for="duedate1">Due date</label> 
       <input type="datetime-local" name="duedate" id="duedate1"></div>
       <div class="span3"><label>&nbsp;</label><button class="btn" type="button" onClick="del(1);">Delete Item</button></div>
+      </div>
       </div>
       <button class="btn" type="submit" >submit</button> 
       </form>
