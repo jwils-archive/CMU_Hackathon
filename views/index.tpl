@@ -22,7 +22,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#">Project name</a>
+          <!-- <a class="brand" href="#">Project name</a> -->
           <div class="nav-collapse">
             <ul class="nav">
               <li class="active"><a href="/">Home</a></li>
@@ -55,7 +55,7 @@
 					</div>
 					<div class="row" id="item1">
 						<div class="span3"> <label for="description1">Item description</label>
-						<input type="text" name="description1" id="description" /> </div>					
+						<input type="text" name="description1" id="description" /> </div>	
 						<div class="span3"><label for="time1">Time estimate (hours)</label> 
 						<input type="number" name="time1" id="time" step="0.5" min="0"/> </div>					
 						<div class="span3"><label for="duedate1">Due date</label> 
