@@ -18,8 +18,8 @@
           <div class="nav-collapse">
             <ul class="nav">
               <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">Team</a></li>
-              <!-- <li><a href="#contact">Contact</a></li> -->
+              <li><a href="#team">Team</a></li>
+              <li><a href="#info">What is a .ics file?</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
