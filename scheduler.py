@@ -40,6 +40,8 @@ class Scheduler():
 	   is_scheduled = False
 	   curr_time = self.end_date - event.duration
 	   while not is_scheduled and not curr_time < self.start_date:
+       	       event.start = curr_time
+	       event.end = curr_time + event.duration
 	       is_valid = True
 	       # check conflicts with current schedule
 	       for component in self.ical.walk():
@@ -57,8 +59,6 @@ class Scheduler():
 		           is_valid = False
 			   break
 	       if is_valid:
-	       	   event.start = curr_time
-		   event.end = curr_time + event.duration
 	           self.addToCalendar(event)
 	           is_scheduled = True
 	       else:
