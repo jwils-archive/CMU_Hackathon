@@ -17,9 +17,9 @@
           <a class="brand" href="#">Project name</a>
           <div class="nav-collapse">
             <ul class="nav">
-              <li><a href="#">Home</a></li>
-              <li><a href="#team">Team</a></li>
-              <li class="active"><a href="#info">What is a .ics file?</a></li>
+              <li><a href="/">Home</a></li>
+              <li><a href="/team">Team</a></li>
+              <li class="active"><a href="/help">Help</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
