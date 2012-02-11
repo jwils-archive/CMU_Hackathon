@@ -4,6 +4,14 @@ from bottle import static_file
 @route('/')
 def hello():
     return template('index.tpl')
+		
+@route('/team')
+def team():
+		return template('team.tpl')
+		
+@route('/help')
+def info():
+		return template('info.tpl')
 
 
 @route('/submit', method="POST")
