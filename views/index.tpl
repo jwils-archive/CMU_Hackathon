@@ -31,7 +31,7 @@
       <!-- Main hero unit for a primary marketing message or call to action -->
       <div class="hero-unit">
         <h1>App name</h1>
-        <p>Do you like to keep your life in order? Are you the kind of person that puts everything on their calendar? Would you rather work on tasks in a couple smaller blocks of time instead of all at once (or do you at least wish you did)? Tell us what you need to get done, how long you think it'll take to finish, and when it needs to get done by, and we'll take care of the rest.</p>
+        <p>Do you like to keep your life in order? Are you the kind of person that puts everything on their calendar? Tell us what you need to get done and how long you think it'll take to finish and we'll take care of the rest.</p>
         <!-- <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p> -->
       </div>
 
