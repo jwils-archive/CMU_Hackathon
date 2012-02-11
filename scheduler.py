@@ -73,7 +73,8 @@ class Scheduler():
         self.simpl_ical.add_component(e)
 
     def writeFile(self):
-    	return self.ical.as_string()
+    	#return self.ical.as_string()
+	return self.simpl_ical.as_string()
    
 def main():
     events = []
