@@ -74,12 +74,13 @@ class Scheduler():
         self.simpl_ical.add_component(e)
 
     def writeFile(self):
-        f = open(os.path.splitext(self.fname)[0] + '_taks.ics', 'wb')
-        f_simpl  = open(os.path.splitext(self.fname)[0] + '_tasks_simpl.ics', 'wb')
+        f = open(os.path.splitext(self.fname)[0] + '_result.ics', 'wb')
+        f_simpl  = open(os.path.splitext(self.fname)[0] + '_result_simpl.ics', 'wb')
         f.write(self.ical.as_string())
         f_simpl.write(self.simpl_ical.as_string())
         f.close()
         f_simpl.close()
+	return os.path.splitext(self.fname)[0] + '_result.ics'
 
 def main():
     events = []
